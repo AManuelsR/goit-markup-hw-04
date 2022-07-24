@@ -1,0 +1,369 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+body{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width: 1600px;
+              
+    }
+
+/*----configuracion de encabezado------*/
+
+.contenedor-encabezado{
+    margin: 0 auto;
+}
+
+
+header{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    width: 145px;
+    height: 31px;
+    color: #2196F3;
+    font-size: 26px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black
+ }
+
+ a:hover{
+    
+    border-bottom: 2px solid #2196F3;
+    color: #2196F3;
+}
+
+/*----configuracion banner----*/
+
+ .banner{
+    width: 1600px;
+    height: 600px;
+    background-image: url("/img/banner.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-banner{
+    color: white;
+    font-size: 44px;
+    width: 650px;
+    text-align: center;
+}
+
+.boton-banner{    
+    background: #2196F3;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 4px;
+    width: 210px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.06em;
+
+}
+
+/*----configuracion valores----*/
+
+.contenedor-valores{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.values-container{
+    width: 270px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;    
+}
+
+.values-container p{
+    text-align: justify;
+}
+
+.atencion{
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*----configuracion servicios----*/
+
+.contenedor-servicios{    
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.servicios{
+    width: 370px;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 10px;
+    position: relative;
+}
+
+.servicios p{
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    background: rgba(47, 48, 58, 0.8);
+    color: #FFFFFF;
+    letter-spacing: 0.03em;
+    position: absolute;
+    top: 215px;
+}
+
+
+/*----configuracion sequipo----*/
+
+.contenedor-equipo{
+    width: 1600px;
+    height: 708px;
+    margin: 0 auto;
+    text-align: center;
+    background: #F5F4FA;
+
+}
+
+.work-team{
+    margin: 5px;
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    place-items: center;
+    width: 270px;
+    height: 428px;
+}
+
+
+.work-team img{
+    width: 270px;
+    height: 260px;
+}
+
+/*--configuracion Redes sociales--*/
+
+.redes-sociales ul li{
+    
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales ul li i{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.redes-sociales ul li:hover{
+    background: #2196F3;
+}
+
+.redes-sociales ul li i:hover{
+    color: #FFFFFF;
+}
+
+/*--configuracion clientes--*/
+
+.contenedor-clientes{
+    
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;    
+}
+
+.contenedor-clientes h3, .nuestro, .contenedor-servicios h2 {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.03em;   
+}
+
+.clientes{
+    
+    width: 180px;
+    height: 81px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 4px;   
+}
+
+/*-----configuracion clientes-----*/
+
+.cliente-1:hover{
+    border: solid 1px blue;
+}
+
+
+.cliente-1-1:hover{
+    
+    fill: #2196F3;
+    stroke: blue;
+    background: white;
+
+}
+
+
+
+
+/*--configuracion del portafolio--*/
+
+
+.contenedor-portafolio{
+    
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu{
+    
+    text-align: center;
+       
+}
+
+.menu-button{
+    text-align: center;
+    width: 150px;
+    height: 38px;
+    padding: 10px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+.port-group{
+    
+    display: inline-block;
+    margin: 10px;
+    height: 400px;
+    width: 370px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+button:hover{
+    background:#2196F3;
+    color: white;
+    border: 0;
+}
+
+/*--configuracion pie de pagina--*/
+
+footer{
+    
+    width: 1600px;
+    background: #2F303A;
+    
+}
+
+.contenedor-final{
+    
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;    
+    display: flex;
+  
+}
+
+.direccion-final{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.direccion{
+    margin-left: 20px;
+}
+
+.red-social-texto{
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/*-------red social pie de pagina----*/
+
+
+.red-social-final{
+    margin-left: 30px;
+    place-items: center;
+    border-left: 20px;
+    
+}
+
+.icon{
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.red-social-final .icon span{
+    
+    height: 50px;
+    width: 50px;
+    display: block;    
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+
+.red-social-final .icon:hover span i{
+    color: #fff;
+} 
+
+
+
+.red-social-final .icon:hover span{
+    color: #fff;
+    background: #2196F3;
+}
+
+.red-social-final .icon span i{
+    font-size: 25px;
+    line-height: 40px; /*agranda los iconos de la red social*/
+    color: #fff;
+}
